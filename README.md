@@ -37,9 +37,9 @@ PL-BERT is a powerful multilingual variant of BERT pre-trained on extensive text
 
 During training, we monitored performance with validation metrics:
 
-- **Validation Loss:** *(To be included)*
-- **Vocabulary Accuracy:** *(To be included)*
-- **Token Accuracy:** *(To be included)*
+- **Validation Loss:** 1.879
+- **Vocabulary Accuracy:** 78.54%
+- **Token Accuracy:** 82.30%
 
 ## Contributing
 
