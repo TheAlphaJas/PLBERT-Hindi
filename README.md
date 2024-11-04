@@ -2,6 +2,8 @@
 
 Welcome to the PL-BERT training project! This repository contains code and resources for fine-tuning the PL-BERT model on a Hindi dataset extracted from the "wiki40b" dataset. Our goal is to enhance the model's ability to understand and generate Hindi text using a high-quality, cleaned Wikipedia dataset.
 
+The fine-tuned training step file has been pushed and can be found on [Hugging Face Hub](https://huggingface.co/meAtIonio/fine-tuned-PL_BERT-hindi/tree/main) for easy access and deployment.
+
 ## Dataset: Wiki40b
 
 ### Overview
