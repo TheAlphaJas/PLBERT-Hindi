@@ -3,12 +3,12 @@ mixed_precision: "fp16"
 data_folder: "wikipedia_20220301.hi.processed"
 batch_size: 192
 save_interval: 5000
-log_interval: 100
-num_process: 4 # number of GPUs
+log_interval: 10
+num_process: 1 # number of GPUs
 num_steps: 15000
 
 dataset_params:
-    tokenizer: "bert-base-uncased"
+    tokenizer: "transfo-xl-wt103"
     token_separator: " " # token used for phoneme separator (space)
     token_mask: "M" # token used for phoneme mask (M)
     word_separator: 3039 # token used for word separator (<formula>)
